@@ -1,0 +1,25 @@
+body {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    background-color: whitesmoke;
+    color: darkblue;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.container {
+    border: 1px solid black;
+    padding: 50px;
+    background-color: white;
+}
+
+main {
+    text-align: center;
+    border: black, 1px;
+}
