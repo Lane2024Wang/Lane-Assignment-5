@@ -1,0 +1,50 @@
+body{
+    background-color: turquoise;
+    color:darkblue;
+    font-size: medium;
+    font-family:'Times New Roman', Times, serif;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    font-weight: black;
+    text-align: right;
+}
+
+
+h1:hover{
+    color:cadetblue;
+}
+
+h3{
+    color:darkblue;
+    font-family:'Times New Roman', Times, serif;
+    font-size:larger;
+    font-weight: bold;
+    text-align: right;
+}
+
+h3:hover{
+    color:cadetblue;
+    background-color: lavender;
+}
+
+h4{
+    font-style: italic;
+    font-weight: lighter;
+    font-size: medium;
+    text-decoration: underline;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    font-weight: lighter;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
