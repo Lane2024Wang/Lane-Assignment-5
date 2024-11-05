@@ -1,0 +1,121 @@
+body{
+    margin-top: 50px;
+    margin-bottom: 80px;
+    background-color: turquoise;
+    color:darkblue;
+    font-size: medium;
+    font-family:'Times New Roman', Times, serif;
+}
+
+main, header, footer {
+    padding: 20px;
+    align-self: center;
+}
+
+hr{
+    width: 80%;
+    height: 2px;
+    background-color: darkblue;
+    border: none;
+    margin-bottom: 40px;
+}
+
+.bilingual-container {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 40px auto;
+    max-width: 1000px;
+}
+
+.column {
+    padding: 20px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10px; 
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
+    color:darkblue;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    font-weight: black;
+    text-align: right;
+}
+
+.align-heading{
+    text-align: center;
+    border-bottom: #ffffff;
+    margin-bottom: 20px;
+}
+
+.h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    font-weight: bolder;
+    text-align: right;
+}
+
+.h1-italic{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    font-weight: lighter;
+    text-align: justify;
+    font-style: oblique;
+}
+
+.h4{
+    text-align: center;
+    font-weight: bold;
+    font-size: Large;
+}
+
+.h4-2{
+    text-align: center;
+    font-style: italic;
+}
+
+h1:hover{
+    color:cadetblue;
+}
+
+h3{
+    color:darkblue;
+    font-family:'Times New Roman', Times, serif;
+    font-size:larger;
+    font-weight: bold;
+    text-align: right;
+}
+
+.h4:hover{
+    color:cadetblue;
+    background-color: lavender;
+}
+
+h4{
+    font-style: italic;
+    font-weight: lighter;
+    font-size: medium;
+    text-decoration: underline;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    font-weight: lighter;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #4a90e2;
+}
